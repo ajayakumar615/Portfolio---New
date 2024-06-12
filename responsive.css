@@ -85,6 +85,10 @@
         margin-bottom: 1rem;
     }
 
+    ul li a:hover {
+        color: #000000;
+    }
+
     #bottom .bottom-nav {
         padding: 0;
     }
