@@ -546,6 +546,7 @@ ul li a:hover {
     color: #1f1f38;
     background-color: #4db5ff;
 }
+
 .cpy-black {
     color: rgb(255, 255, 255);
 }
@@ -553,22 +554,22 @@ ul li a:hover {
 .landing .intro {
     display: flex;
     flex-direction: column;
-  }
-  
-  .landing .intro h3 {
+}
+
+.landing .intro h3 {
     color: #fbfbfb;
     font-weight: 400;
     font-size: 32px;
     margin-left: 10vw;
-  }
-  
-  .landing .intro h3 span {
+}
+
+.landing .intro h3 span {
     color: #fec86a;
     font-weight: 600;
     font-size: 3.5rem;
-  }
-  
-  .intro button {
+}
+
+.intro button {
     height: 48px;
     width: 144px;
     margin-top: 2.5vh;
@@ -579,13 +580,14 @@ ul li a:hover {
     color: #fec86a;
     font-size: 16px;
     transition: all ease 0.5s;
-  }
-  
-  .intro button:hover {
+}
+
+.intro button:hover {
     background-color: #fec86a;
     color: #34353b;
-  }
-  .left-nav {
+}
+
+.left-nav {
     display: flex;
     align-items: center;
 }
@@ -593,7 +595,7 @@ ul li a:hover {
 .logo {
     width: 50px;
     height: auto;
-}                   
+}
 
 
 
@@ -628,6 +630,7 @@ body {
     width: 100%;
     height: auto;
 }
+
 .mode input {
     display: none;
 }
@@ -775,6 +778,7 @@ li a:hover {
 .mode input {
     display: none;
 }
+
 .images {
     background: linear-gradient(145deg, #1f252e, #2e3239);
     box-shadow: 10px 10px 19px #1c1e22, -10px -10px 19px #1b1f27;
@@ -915,10 +919,12 @@ li a:hover {
         left: 0%;
         transition: all 0.3s ease;
     }
+
     .mode {
         position: absolute;
         right: 4rem;
     }
+
     .images {
         width: 100%;
         margin: auto;
@@ -952,7 +958,7 @@ footer {
 .email-link {
     color: white;
     text-decoration: none;
-    transition: color 0.3s; 
+    transition: color 0.3s;
 }
 
 .email-link:hover {
@@ -986,9 +992,9 @@ footer {
     justify-content: center;
     margin-top: 50px;
     gap: 2.5vh;
-  }
-  
-  .skill-card {
+}
+
+.skill-card {
     height: 20vw;
     width: 20vw;
     background-color: #3d3e42;
@@ -1000,20 +1006,23 @@ footer {
     justify-content: center;
     gap: 2.5vh;
     transition: all ease 0.5s;
-  }
-  
-  .skill-card:hover {
+}
+
+.skill-card:hover {
     background-color: #fec86a;
-  }
-  
-  .skill-card img {
+}
+.skill-card:hover h2 {
+    color: black;
+}
+
+.skill-card img {
     height: 7.5vw;
     width: 7.5vw;
     object-fit: contain;
-  }
-  
-  .skill-card h2 {
+}
+
+.skill-card h2 {
     font-size: 24px;
     font-weight: 400;
     color: #fbfbfb;
-  }
+}
